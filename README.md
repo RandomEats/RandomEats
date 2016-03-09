@@ -1,6 +1,7 @@
 # # Group Project - *RandomEats*
 
 **RandomEats** description
+
 Time spent: **X** hours spent in total
 
 ## User Stories
