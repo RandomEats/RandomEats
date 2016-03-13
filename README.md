@@ -1,6 +1,10 @@
 # # Group Project - *RandomEats*
 
-**RandomEats** description
+**RandomEats** How many times have you been to a new restaurant and didn't know what to get? Or even didn't know what restaurant to go to? Well, now we have RandomEats. An app that randomly chooses where you can go based on a few preferences. 
+
+RandomEats is designed with the Yelp API. It can filter restaurants based on the person's location and price range, and food preferences. And then pick a random restaurant for the indecisive. 
+
+As an added feature we may also give them option to randomly select menu items for some restaurants.
 
 Time spent: **X** hours spent in total
 
@@ -8,15 +12,15 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Set up Yelp API and a filter view controller.
+- [ ] User can save chosen restaurants in a list form and can view and share them.
+- [ ] User will be able to set default preferences to use the app.
 
 
 The following **optional** features are implemented:
 
-- [ ] 
-- [ ] 
+- [ ] App opens to a search bar and a random button, if user doesn't type in within 5 seconds. Gives the user a random restaurant
+- [ ] Tab bar for saved restaurant lists and random menu
 
 The following **additional** features are implemented:
 
