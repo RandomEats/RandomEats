@@ -10,9 +10,8 @@ The following **required** functionality is completed:
 
 - [ ] 
 - [ ] 
-- [ ]
 - [ ] 
-- [ ]
+
 
 The following **optional** features are implemented:
 
