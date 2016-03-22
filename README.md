@@ -12,19 +12,23 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] Set up Yelp API and a filter view controller.
-- [ ] User can save chosen restaurants in a list form and can view and share them.
-- [ ] User will be able to set default preferences to use the app.
+- [ ] Set up Yelp API 
+- [ ] Store preferences as local persistence data
+- [ ] Use current location
+- [ ] Filter data to get result
 
 
 The following **optional** features are implemented:
 
-- [ ] App opens to a search bar and a random button, if user doesn't type in within 5 seconds. Gives the user a random restaurant
-- [ ] Tab bar for saved restaurant lists and random menu
+- [ ] User can login using Facebook
+- [ ] User can store favorite restaurants in a seperate VC
+- [ ] Implement Collection View
+- [ ] Implemet Gesture Navigation for app
+- [ ] Implement tab Bar Navigation for results page
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] Animate Launch Screen
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
