@@ -35,7 +35,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 1. 
 2. 
 
-## Video Walkthrough 
+## Wireframe 
 
 Here's a basic wireframe of implemented user stories:
 
