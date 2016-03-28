@@ -33,8 +33,37 @@ The following **additional** features are implemented:
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. 
-2. 
-
+2.
+## Data Schema 
+1. API Endpoints - Yelp API Endpoints
+2. LoginViewController
+    a.Username
+    b.Password
+3. MenuViewController
+    a. Food Options in a collection View
+        i. Image
+        ii. Title
+4.SettingsViewController
+    a. Price Range
+    b. Ratings
+    c.Vegan
+    d.Vegetarian
+    e.Kosher
+    f.Optional Settings (....)
+5.ResultsViewController
+    a.Image
+    b.Fun Facts
+    c.Essential Info
+    d.Map
+       i location
+    e.Tab Bar
+       i. Direction
+       ii. Phone Call
+       iii. Favorite
+6. Favorites View Controller
+   a. Table View.
+   b. Resturaunt Name 
+  
 ## Wireframe 
 
 Here's a basic wireframe of implemented user stories:
