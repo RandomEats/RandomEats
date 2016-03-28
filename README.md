@@ -35,34 +35,34 @@ Please list two areas of the assignment you'd like to **discuss further with you
 1. 
 2.
 ## Data Schema 
-1. API Endpoints - Yelp API Endpoints
-2. LoginViewController
-    a.Username
-    b.Password
-3. MenuViewController
-    a. Food Options in a collection View
-        i. Image
-        ii. Title
-4.SettingsViewController
-    a. Price Range
-    b. Ratings
-    c.Vegan
-    d.Vegetarian
-    e.Kosher
-    f.Optional Settings (....)
-5.ResultsViewController
-    a.Image
-    b.Fun Facts
-    c.Essential Info
-    d.Map
-       i location
-    e.Tab Bar
-       i. Direction
-       ii. Phone Call
-       iii. Favorite
-6. Favorites View Controller
-   a. Table View.
-   b. Resturaunt Name 
+1. API Endpoints - Yelp API Endpoints  
+2. LoginViewController  
+    a.Username  
+    b.Password  
+3. MenuViewController  
+    a. Food Options in a collection View  
+        i. Image  
+        ii. Title  
+4.SettingsViewController  
+    a. Price Range  
+    b. Ratings  
+    c.Vegan  
+    d.Vegetarian  
+    e.Kosher  
+    f.Optional Settings (....)  
+5.ResultsViewController  
+    a.Image  
+    b.Fun Facts  
+    c.Essential Info  
+    d.Map  
+       i location  
+    e.Tab Bar  
+       i. Direction  
+       ii. Phone Call  
+       iii. Favorite  
+6. Favorites View Controller  
+   a. Table View.  
+   b. Resturaunt Name   
   
 ## Wireframe 
 
