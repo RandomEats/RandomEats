@@ -14,9 +14,6 @@ class ResultsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var tile: UIButton!
     @IBOutlet weak var title: UILabel!
     
-    
-    didSet{
-    title.text = 
-    }
+  
     
 }

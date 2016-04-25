@@ -14,6 +14,7 @@
 		0CB41BB41CCEA63D00833382 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB41BB31CCEA63D00833382 /* LoginViewController.swift */; };
 		0CB41BB61CCEA67300833382 /* ResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB41BB51CCEA67300833382 /* ResultsCollectionViewCell.swift */; };
 		0CB41BB91CCEA70D00833382 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB41BB81CCEA70D00833382 /* Category.swift */; };
+		0CB41BBB1CCEB0EA00833382 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB41BBA1CCEB0EA00833382 /* SwitchCell.swift */; };
 		5489D0761C90BCF100F1AB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489D0751C90BCF100F1AB4D /* AppDelegate.swift */; };
 		5489D07B1C90BCF100F1AB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5489D0791C90BCF100F1AB4D /* Main.storyboard */; };
 		5489D07D1C90BCF100F1AB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5489D07C1C90BCF100F1AB4D /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		0CB41BB31CCEA63D00833382 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0CB41BB51CCEA67300833382 /* ResultsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCollectionViewCell.swift; sourceTree = "<group>"; };
 		0CB41BB81CCEA70D00833382 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0CB41BBA1CCEB0EA00833382 /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
 		27E92298CB94087852A70BE5 /* Pods-RandomEats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomEats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomEats/Pods-RandomEats.debug.xcconfig"; sourceTree = "<group>"; };
 		50B7AD704F143AED592E3422 /* Pods-RandomEats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomEats.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomEats/Pods-RandomEats.release.xcconfig"; sourceTree = "<group>"; };
 		5489D0721C90BCF100F1AB4D /* RandomEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				0CB41BB51CCEA67300833382 /* ResultsCollectionViewCell.swift */,
+				0CB41BBA1CCEB0EA00833382 /* SwitchCell.swift */,
 			);
 			name = ViewCells;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				0CB41BB41CCEA63D00833382 /* LoginViewController.swift in Sources */,
 				0CB41BB21CCEA60E00833382 /* HomeViewController.swift in Sources */,
+				0CB41BBB1CCEB0EA00833382 /* SwitchCell.swift in Sources */,
 				5489D0761C90BCF100F1AB4D /* AppDelegate.swift in Sources */,
 				0CB41BB61CCEA67300833382 /* ResultsCollectionViewCell.swift in Sources */,
 				0CB41BAE1CCEA59600833382 /* FavoritesViewController.swift in Sources */,
