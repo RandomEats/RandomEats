@@ -1,0 +1,6 @@
+framework module Pods_RandomEats {
+  umbrella header "Pods-RandomEats-umbrella.h"
+
+  export *
+  module * { export * }
+}

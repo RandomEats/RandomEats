@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="256" y="-68"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="nVV-UF-e7P">
             <objects>
-                <viewController id="keV-qL-oyY" sceneMemberID="viewController">
+                <viewController id="keV-qL-oyY" customClass="SettingsViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2ee-ZM-bhD"/>
                         <viewControllerLayoutGuide type="bottom" id="Pcv-IT-9O1"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1639" y="-735"/>
         </scene>
-        <!--Randon Eats View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="B0S-CJ-ZKJ">
             <objects>
-                <viewController id="7MR-jK-17n" customClass="RandonEatsViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7MR-jK-17n" customClass="HomeViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oSC-8d-SFr"/>
                         <viewControllerLayoutGuide type="bottom" id="gOp-qg-O7G"/>
@@ -141,7 +141,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCollection" id="brO-c4-LOV">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCollection" id="brO-c4-LOV" customClass="ResultsCollectionViewCell" customModule="RandomEats" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="152" height="103"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -188,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="1126" y="-68"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="HXy-Uf-NdW">
             <objects>
-                <viewController id="hHq-eJ-Ay3" sceneMemberID="viewController">
+                <viewController id="hHq-eJ-Ay3" customClass="ResultsViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k8e-yX-020"/>
                         <viewControllerLayoutGuide type="bottom" id="cAi-I7-tEX"/>
@@ -251,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="1126" y="599"/>
         </scene>
-        <!--Favorite View Controller-->
+        <!--Favorites View Controller-->
         <scene sceneID="ROj-NB-cm9">
             <objects>
-                <viewController id="lfa-Y8-KhA" customClass="FavoriteViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lfa-Y8-KhA" customClass="FavoritesViewController" customModule="RandomEats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="11u-5w-ifo"/>
                         <viewControllerLayoutGuide type="bottom" id="ihk-lm-VxI"/>
