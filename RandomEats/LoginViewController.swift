@@ -22,6 +22,13 @@ class LoginViewController: UIViewController {
     }
     
 
+   
+    @IBAction func test(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("LoginSegue", sender: nil)
+        
+        
+    }
     /*
     // MARK: - Navigation
 
