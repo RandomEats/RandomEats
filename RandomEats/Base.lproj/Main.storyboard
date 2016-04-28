@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
@@ -132,6 +132,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZFe-eH-yax"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nnj-hl-mqW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,7 +152,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aSj-1a-2zN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="1" green="0.98962803858457871" blue="0.9605542649545421" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LZz-dV-AVi">
                                     <size key="itemSize" width="152" height="103"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -166,8 +168,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="152" height="103"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lym-6S-ZVw">
-                                                    <rect key="frame" x="46" y="8" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asian" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lym-6S-ZVw">
+                                                    <rect key="frame" x="0.0" y="8" width="152" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -175,9 +177,6 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju8-ZR-rMG">
                                                     <rect key="frame" x="8" y="34" width="129" height="61"/>
                                                     <state key="normal" title="Image of the menu"/>
-                                                    <connections>
-                                                        <segue destination="hHq-eJ-Ay3" kind="presentation" id="RHw-c6-wJT"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -185,6 +184,7 @@
                                         <connections>
                                             <outlet property="tile" destination="Ju8-ZR-rMG" id="fZC-sU-5y6"/>
                                             <outlet property="title" destination="lym-6S-ZVw" id="Szw-qw-ctN"/>
+                                            <segue destination="hHq-eJ-Ay3" kind="presentation" identifier="resultSegue" id="5I9-BJ-cKJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -192,19 +192,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="J34-qH-WkF" appends="YES" id="AJE-NW-swI"/>
+                            <outletCollection property="gestureRecognizers" destination="Ss8-KR-Cg3" appends="YES" id="Z16-Iq-jUm"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="S8c-D0-9p2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="collectionView" destination="aSj-1a-2zN" id="m6I-aU-6Dr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EM5-Pm-q9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="VM3-kj-xai">
+                <swipeGestureRecognizer direction="right" id="J34-qH-WkF">
                     <connections>
-                        <segue destination="keV-qL-oyY" kind="presentation" id="pRa-kn-5GS"/>
+                        <segue destination="keV-qL-oyY" kind="presentation" identifier="swipeSettings" id="QBx-L3-NWB"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="qXd-zk-L2o">
+                <swipeGestureRecognizer direction="left" id="Ss8-KR-Cg3">
                     <connections>
-                        <segue destination="lfa-Y8-KhA" kind="presentation" id="Kh0-k3-sld"/>
+                        <segue destination="lfa-Y8-KhA" kind="presentation" identifier="swipeFavorites" id="yuK-PI-jQq"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -293,7 +300,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="118"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HRy-B4-jse" id="rxc-Ub-cx8">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="117.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="117"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGy-RR-V3S">

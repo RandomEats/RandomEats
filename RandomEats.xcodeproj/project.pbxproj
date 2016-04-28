@@ -19,6 +19,7 @@
 		5489D07B1C90BCF100F1AB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5489D0791C90BCF100F1AB4D /* Main.storyboard */; };
 		5489D07D1C90BCF100F1AB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5489D07C1C90BCF100F1AB4D /* Assets.xcassets */; };
 		5489D0801C90BCF100F1AB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5489D07E1C90BCF100F1AB4D /* LaunchScreen.storyboard */; };
+		60CB15861CD2B2050022A36F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CB15851CD2B2050022A36F /* MapKit.framework */; };
 		7D713E3C03D9460BA4508B20 /* Pods_RandomEats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1642497DA0E7B69027EB57 /* Pods_RandomEats.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		5489D07C1C90BCF100F1AB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5489D07F1C90BCF100F1AB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5489D0811C90BCF100F1AB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CB15851CD2B2050022A36F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DE1642497DA0E7B69027EB57 /* Pods_RandomEats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomEats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CB15861CD2B2050022A36F /* MapKit.framework in Frameworks */,
 				7D713E3C03D9460BA4508B20 /* Pods_RandomEats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +131,7 @@
 		A0240A1389D66009B9D0D52F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60CB15851CD2B2050022A36F /* MapKit.framework */,
 				DE1642497DA0E7B69027EB57 /* Pods_RandomEats.framework */,
 			);
 			name = Frameworks;

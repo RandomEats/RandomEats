@@ -10,6 +10,8 @@ import UIKit
 
 class ResultsViewController: UIViewController {
 
+    var category: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
