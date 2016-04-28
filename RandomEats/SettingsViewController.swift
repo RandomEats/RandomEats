@@ -9,6 +9,12 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
+    
+    @IBOutlet weak var Single: UIButton!
+    
+    @IBOutlet weak var double: UIButton!
+    
+    @IBOutlet weak var Ballin: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
