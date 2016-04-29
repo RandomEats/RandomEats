@@ -277,6 +277,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="foodMap" destination="WGa-Ez-uWB" id="sZg-rI-7Ar"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V39-Eh-fqJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

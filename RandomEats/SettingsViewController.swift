@@ -16,13 +16,21 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet weak var Ballin: UIButton!
     
-    let filteredData:
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
        
     }
+    
+    /*Business.searchWithTerm("Restaurant", latitude: 37.721839, longitude: -122.476927, sort: .Distance, categories: [], deals: false, offset: nil, limit: 20, completion: { (businesses: [Business]!, error: NSError!) -> Void in
+    self.businesses = businesses
+ 
+    
+    //self.filteredBusinesses = self.businesses
+    self.tableView.reloadData()
+    })
     
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         filteredData = searchText.isEmpty ? data : data.filter({(dataString: String) -> Bool in
@@ -47,6 +55,7 @@ class SettingsViewController: UIViewController {
                 }
             })
         }
+ */
     
 
     override func didReceiveMemoryWarning() {
